@@ -23,3 +23,7 @@ if (apellido.includes('a' || 'm')){
 } else{
     console.log("Tu apellido no contiene las letras \"a\" o \"m\" ");
 }
+
+let textoPablito = "Pablito-clavó-un-clavito"
+
+console.log(textoPablito.replace(/-/g , " "))
